@@ -1,0 +1,65 @@
+/*公用CSS*/
+html, body, div, span, object, h1, h2, h3,
+h4, h5, h6, p, a, em, font, img, s, samp, small, strong,
+dt, ol, ul, li, fieldset, form, label, table,
+tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: 'PingFang SC', '微软雅黑', '黑体' !important;
+  box-sizing: border-box !important;
+}
+
+
+html,body {
+  height: 100%!important;
+  margin:0 auto;
+}
+
+p{
+  word-wrap:break-word
+}
+
+i {
+  font-style: normal;
+}
+
+i[class^="lab-"] {
+  vertical-align: middle;
+}
+
+s {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+  text-decoration: none;
+  border: 0 none;
+}
+
+:focus {
+  outline: 0;
+}
+a{
+  cursor: pointer;
+}
+a, a:link, a:visited, a:hover, a:active {
+  text-decoration: none
+}
+
+/*清除浮动*/
+.clearfix:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  clear: both;
+  display: block;
+  visibility: hidden
+}
+
+.clearfix {
+  zoom: 1; /*IE/7/6*/
+}
